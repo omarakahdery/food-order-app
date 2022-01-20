@@ -32,6 +32,7 @@ const AvailableMeals = () => {
   const mealList = MEALS_DATA.map((meal) => (
     <MealItem
       key={meal.id}
+      id={meal.id}
       description={meal.description}
       price={meal.price}
       name={meal.name}
